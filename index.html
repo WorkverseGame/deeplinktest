@@ -1,4 +1,4 @@
-<html>
+<!-- <html>
     <head>
        <meta charset="utf-8">
     </head>
@@ -6,4 +6,22 @@
        <h1>My Deep Link Test page</h1>
        <p><a href="workverseunity://workverse.com/game?level=10">Launch with Parameter</a></p>
     </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workverse Redirect</title>
+  <script>
+    // Trigger the custom protocol when the page loads
+    window.onload = function() {
+      window.location.href = "workverseunity://workverse.com/";
+    };
+  </script>
+</head>
+<body>
+  <p>If the redirection does not occur, please click <a href="workverseunity://workverse.com/">here</a>.</p>
+</body>
 </html>
